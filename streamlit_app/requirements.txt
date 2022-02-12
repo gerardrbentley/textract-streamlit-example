@@ -1,0 +1,4 @@
+boto3==1.20.54
+Pillow==9.0.1
+pydantic==1.9.0
+streamlit==1.5.1

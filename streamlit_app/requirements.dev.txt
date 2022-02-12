@@ -1,0 +1,14 @@
+-r requirements.txt
+bandit
+black
+flake8
+isort
+nox
+pep8-naming
+pre-commit
+pylint
+pytest
+pytest-cov
+pytest-mock
+seleniumbase
+tox
