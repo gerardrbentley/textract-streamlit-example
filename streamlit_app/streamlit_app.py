@@ -58,7 +58,7 @@ def main():
 
         uploaded_data = st.file_uploader(
             "Choose an image",
-            type=["png", "jpg", "jpeg", "pdf"],
+            type=["png", "jpg", "jpeg"],  # TODO: Fix PDF. No Pillow handling, use filenames
         )
         submitted = st.form_submit_button("Upload!")
 
